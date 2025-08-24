@@ -10,7 +10,7 @@ Three dimensional function renderer capable of displaying computational function
 
 Definition example:
 
-```
+```c++
 float computational_function(float time, float x, float y) {
     return (pow(x,3)*y-pow(y,3)*y)/360;
 }
